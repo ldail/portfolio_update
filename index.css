@@ -467,13 +467,13 @@ h4 {
 }
 
 @-webkit-keyframes special-keyframe {
-  0% { opacity: 50%; }
-  50% { opacity: 100%; }
+  0% { opacity: .3 }
+  50% { opacity: 1.0 }
 }
 
 @keyframes special-keyframe {
-  0% { opacity: 50%; }
-  50% {opacity: 100%; }
+  0% { opacity: .3 }
+  50% {opacity: 1.0 }
 }
 
 /* Keyframe animations */
