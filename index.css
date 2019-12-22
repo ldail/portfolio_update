@@ -196,10 +196,19 @@ h2 span {
 }
 
 .down-arrow-line {
-  margin: 0px 1px 0px 1px;
+  margin: 0px 1px 15px 1px;
+}
+#down-arrow-left, #down-arrow-right {
+  height: 24px;
+  width: 22px;
+  align-self: flex-end;
 }
 
+#down-arrow-left {
+  margin-right: -5px;
+}
 #down-arrow-right {
+  margin-left: -5px;
   transform: rotateY(180deg);
 }
 
