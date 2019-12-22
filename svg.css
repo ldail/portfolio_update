@@ -1,0 +1,12 @@
+.stroke-black {
+  stroke: #fff;
+  stroke-dasharray: 1277;
+  stroke-dashoffset: 1277;
+  animation: dash 6s linear infinite;
+}
+
+@keyframes dash {
+  0% { stroke-dashoffset: 1277; }
+  50% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: 0; }
+}
