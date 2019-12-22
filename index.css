@@ -4,7 +4,6 @@ body {
   text-align: center;
   line-height: 25px;
   font-family: Arial, Helvetica, sans-serif;
-  overflow-x: hidden;
 }
 
 .bold {
@@ -127,6 +126,26 @@ h2 span {
 .down-spiral img {
   position: absolute;
   top: 0;
+}
+
+#spiral-image-1 {
+  -webkit-animation: appear6 14s infinite; /* Safari 4.0 - 8.0 */
+  animation: appear6 14s infinite;
+}
+
+#spiral-image-2 {
+  -webkit-animation: appear7 14s infinite; /* Safari 4.0 - 8.0 */
+  animation: appear7 14s infinite;
+}
+
+#spiral-image-3 {
+  -webkit-animation: appear8 14s infinite; /* Safari 4.0 - 8.0 */
+  animation: appear8 14s infinite;
+}
+
+#spiral-image-4 {
+  -webkit-animation: appear9 14s infinite; /* Safari 4.0 - 8.0 */
+  animation: appear9 14s infinite;
 }
 
 .spaghetti-message {
@@ -291,11 +310,12 @@ main {
   display: block;
   width: 130px;
   height: 170px;
-  border-radius: 50%;
   margin: 0 auto;
   margin-bottom: 15px;
   background-color: white;
   margin-left: 50px;
+  background: url('headshot.png') no-repeat center center;
+  background-size: contain;
 }
 h3 {
   font-size: 16px;
