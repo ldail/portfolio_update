@@ -461,6 +461,21 @@ h4 {
   animation: appear4 14s infinite;
 }
 
+.special-test-class {
+  -webkit-animation: special-keyframe 3s infinite;
+  animation: special-keyframe 3s infinite;
+}
+
+@-webkit-keyframes special-keyframe {
+  0% { opacity: 50%; }
+  50% { opacity: 100%; }
+}
+
+@keyframes special-keyframe {
+  0% { opacity: 50%; }
+  50% {opacity: 100%; }
+}
+
 /* Keyframe animations */
 
 /* Safari 4.0 - 8.0 */
