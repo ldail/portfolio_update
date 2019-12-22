@@ -4,14 +4,6 @@ body {
   text-align: center;
   line-height: 25px;
   font-family: Arial, Helvetica, sans-serif;
-  overflow-x: hidden;
-  animation: test-gradient 5s ease infinite;
-}
-
-@keyframes test-gradient {
-  0% { background-size: 400% 400% }
-  50% { background-size: 100% 100% }
-  100% { background-size: 400% 400%; }
 }
 
 .bold {
@@ -22,21 +14,14 @@ body {
   display: flex;
 }
 
+a { color: white; text-decoration: none; }
 
-a { color: white;}
+.full-page {
+  width: 100vw;
+}
 
 /*splash page */
 
-.index a {
-  text-decoration: none;
-  color: white;
-}
-
-/* .background-wrapper {
-  width: 100%;
-  height: 100%;
-  background-color: white;
-} */
 .wrapper {
   height: 100vh;
   width: 100vw;
