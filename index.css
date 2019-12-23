@@ -22,6 +22,10 @@ a { color: white; text-decoration: none; }
 
 /*splash page */
 
+.index {
+  overflow-x: hidden;
+}
+
 .wrapper {
   height: 100vh;
   width: 100vw;
@@ -443,6 +447,14 @@ h4 {
   margin-top: -100px;
 }
 
+#circle-left-1, #circle-left-2 {
+  width: 50%;
+}
+
+#circle-left-2 {
+  margin-top: -300px;
+}
+
 #top-1, #top-4, #right-2, #left-5 {
   -webkit-animation: appear1 14s infinite; /* Safari 4.0 - 8.0 */
   animation: appear1 14s infinite;
@@ -738,15 +750,6 @@ h4 {
   100% { filter: none;}
 } 
 
-
-/* 
-filter: invert(53%) sepia(20%) saturate(6385%) hue-rotate(83deg) brightness(116%) contrast(97%); */
-
-@media only screen and (min-width: 320px) and (min-height: 700px) {
-  /* .background-spiral {
-    min-width: 100vw;
-  } */
-}
 @media only screen and (min-width: 768px) {
 
   .projects main {
@@ -779,7 +782,11 @@ filter: invert(53%) sepia(20%) saturate(6385%) hue-rotate(83deg) brightness(116%
 
 @media only screen and (max-height: 600px) {
   .circle-wrapper {
-    margin-top: 300px;
+    margin-top: 275px;
+  }
+
+  #circle-left-2 {
+    margin-top: 50px;
   }
 }
 
@@ -797,10 +804,10 @@ filter: invert(53%) sepia(20%) saturate(6385%) hue-rotate(83deg) brightness(116%
 
 @media only screen and (min-width: 768px) and (min-height: 768px) {
   .circle-wrapper {
-    width: 500px;
-    height: 500px;
-    min-width: 500px;
-    min-height: 500px;
+    width: 450px;
+    height: 450px;
+    min-width: 450px;
+    min-height: 450px;
     margin-top: 50px;
   }
 }

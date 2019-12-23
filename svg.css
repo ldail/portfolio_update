@@ -1,12 +1,26 @@
 .stroke-black {
-  stroke: #fff;
   stroke-dasharray: 1277;
   stroke-dashoffset: 1277;
-  animation: dash 6s linear infinite;
+  animation: dash 14s linear infinite;
+  stroke-width: 0.86458332px;
+  stroke: #14d80f;
 }
 
 @keyframes dash {
   0% { stroke-dashoffset: 1277; }
-  50% { stroke-dashoffset: 0; }
-  100% { stroke-dashoffset: 0; }
+  40% { stroke-dashoffset: 0; }
+  53% { stroke: #14d80f; stroke-dashoffset: -1277; }
+  100% { stroke-dashoffset: -1277; }
+}
+
+@media only screen and (min-width: 768px) and (min-height: 768px) {
+  .stroke-black {
+    stroke-width: 0.46458332px;
+  }
+}
+
+@media only screen and (min-width: 1224px) {
+  .stroke-black {
+    stroke-width: 0.16458332px;
+  }
 }
