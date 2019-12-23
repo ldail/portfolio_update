@@ -1,26 +1,107 @@
-.stroke-black {
-  /* stroke-dasharray: 1277;
-  stroke-dashoffset: 1277; */
-  /* animation: dash 14s linear infinite; */
-  stroke-width: 1px;
+.stroke-single {
+  stroke-dasharray: 651;
+  stroke-dashoffset: 651;
+  stroke-width: .4px;
   stroke: #14d80f;
 }
 
+#path8852 { /* curly path 1 */
+  animation: dash 14s linear infinite;
+}
+
+#path8856 { /* straight path 1 */
+  animation: straightdash 14s linear infinite;
+}
+
 @keyframes dash {
+  0% { stroke-dashoffset: 651; }
+  40% { stroke-dashoffset: 0; }
+  53% { stroke: #14d80f; stroke-dashoffset: -651; }
+  100% { stroke-dashoffset: -651; }
+}
+
+@keyframes straightdash {
+  0% { stroke-dashoffset: 651; }
+  58% { stroke-dashoffset: 651; }
+  64% { stroke-dashoffset: 0; }
+  80% { stroke-dashoffset: 0; }
+  85% { stroke-dashoffset: -651}
+  100% { stroke-dashoffset: -651; }
+}
+
+@keyframes dash2 {
   0% { stroke-dashoffset: 1277; }
+  3% { stroke-dashoffset: 1277; }
   40% { stroke-dashoffset: 0; }
   53% { stroke: #14d80f; stroke-dashoffset: -1277; }
   100% { stroke-dashoffset: -1277; }
 }
 
+@keyframes dash3 {
+  0% { stroke-dashoffset: 1277; }
+  6% { stroke-dashoffset: 1277; }
+  40% { stroke-dashoffset: 0; }
+  53% { stroke: #14d80f; stroke-dashoffset: -1277; }
+  100% { stroke-dashoffset: -1277; }
+}
+
+@keyframes dash4 {
+  0% { stroke-dashoffset: 1277; }
+  9% { stroke-dashoffset: 1277; }
+  40% { stroke-dashoffset: 0; }
+  53% { stroke: #14d80f; stroke-dashoffset: -1277; }
+  100% { stroke-dashoffset: -1277; }
+}
+
+@keyframes dash5 {
+  0% { stroke-dashoffset: 1277; }
+  12% { stroke-dashoffset: 1277; }
+  40% { stroke-dashoffset: 0; }
+  53% { stroke: #14d80f; stroke-dashoffset: -1277; }
+  100% { stroke-dashoffset: -1277; }
+}
+
+@keyframes dash6 {
+  0% { stroke-dashoffset: 1277; }
+  15% { stroke-dashoffset: 1277; }
+  40% { stroke-dashoffset: 0; }
+  53% { stroke: #14d80f; stroke-dashoffset: -1277; }
+  100% { stroke-dashoffset: -1277; }
+}
+
+@keyframes dash7 {
+  0% { stroke-dashoffset: 1277; }
+  18% { stroke-dashoffset: 1277; }
+  40% { stroke-dashoffset: 0; }
+  53% { stroke: #14d80f; stroke-dashoffset: -1277; }
+  100% { stroke-dashoffset: -1277; }
+}
+
+@keyframes dash8 {
+  0% { stroke-dashoffset: 1277; }
+  21% { stroke-dashoffset: 1277; }
+  40% { stroke-dashoffset: 0; }
+  53% { stroke: #14d80f; stroke-dashoffset: -1277; }
+  100% { stroke-dashoffset: -1277; }
+}
+
+@keyframes dash9 {
+  0% { stroke-dashoffset: 1277; }
+  24% { stroke-dashoffset: 1277; }
+  40% { stroke-dashoffset: 0; }
+  53% { stroke: #14d80f; stroke-dashoffset: -1277; }
+  100% { stroke-dashoffset: -1277; }
+}
+
+
 @media only screen and (min-width: 386px) and (min-height: 386px) {
-  .stroke-black {
-    stroke-width: 0.5px;
+  .stroke-single {
+    stroke-width: 0.3px;
   }
 }
 
 @media only screen and (min-width: 612px) {
-  .stroke-black {
-    stroke-width: 0.3px;
+  .stroke-single {
+    stroke-width: 0.2px;
   }
 }
