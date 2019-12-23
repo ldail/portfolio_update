@@ -42,6 +42,7 @@ a { color: white; text-decoration: none; }
 .background-spiral {
   position: absolute;
   z-index: -1;
+  min-width: 100vw;
 }
 
 .top-spiral {
@@ -51,38 +52,37 @@ a { color: white; text-decoration: none; }
 
 .bg-spiral-1 {
   margin-top: 0vh;
-  min-width: 100vw;
 }
 
-#bg-spiral-2 {
+.bg-spiral-2 {
+  margin-top: 10vh;
+}
+
+.bg-spiral-3 {
   margin-top: 20vh;
 }
 
-#bg-spiral-3 {
+.bg-spiral-4 {
   margin-top: 30vh;
 }
 
-#bg-spiral-4 {
+.bg-spiral-5 {
   margin-top: 40vh;
 }
-
-#bg-spiral-5 {
+.bg-spiral-6 {
   margin-top: 50vh;
 }
-#bg-spiral-6 {
+
+.bg-spiral-7 {
   margin-top: 60vh;
 }
 
-#bg-spiral-7 {
+.bg-spiral-8 {
   margin-top: 70vh;
 }
 
-#bg-spiral-8 {
+.bg-spiral-9 {
   margin-top: 80vh;
-}
-
-#bg-spiral-9 {
-  margin-top: 0vh;
 }
 
 .circle-back {

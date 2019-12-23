@@ -1,16 +1,64 @@
 .stroke-single {
-  stroke-dasharray: 651;
-  stroke-dashoffset: 651;
   stroke-width: .4px;
   stroke: #14d80f;
 }
 
-#path8852 { /* curly path 1 */
+.stroke-single:not(.straightright) {
   animation: dash 14s linear infinite;
 }
 
-#path8856 { /* straight path 1 */
+.straightright {
+  stroke-dasharray: 217;
+  stroke-dashoffset: 217;
   animation: straightdash 14s linear infinite;
+}
+
+#path8852 { /* curly path 1 */
+  stroke-dasharray: 651;
+  stroke-dashoffset: 651;
+}
+
+#path8858 { /* curly path 2 */
+  stroke-dasharray: 698;
+  stroke-dashoffset: 698;
+}
+
+#path8862 { /* culy path 3 */
+  stroke-dasharray: 672;
+  stroke-dashoffset: 672;
+}
+
+#path8866 { /* culy path 4 */
+  stroke-dasharray: 678;
+  stroke-dashoffset: 678;
+}
+
+#path8870 { /* culy path 5 */
+  stroke-dasharray: 723;
+  stroke-dashoffset: 723;
+}
+
+#path8878 { /* culy path 6 */
+  stroke-dasharray: 747;
+  stroke-dashoffset: 747;
+}
+
+#path8882 { /* culy path 7 */
+  stroke-dasharray: 599;
+  stroke-dashoffset: 599;
+}
+
+#path8886 { /* culy path 8 */
+  stroke-dasharray: 635;
+  stroke-dashoffset: 635;
+}
+
+#path8898 { /* culy path 9 */
+  stroke-dasharray: 752;
+  stroke-dashoffset: 752;
+}
+
+#straightright1 { /* straight path 1 */
 }
 
 @keyframes dash {
@@ -21,12 +69,12 @@
 }
 
 @keyframes straightdash {
-  0% { stroke-dashoffset: 651; }
-  58% { stroke-dashoffset: 651; }
+  0% { stroke-dashoffset: 217; }
+  58% { stroke-dashoffset: 217; }
   64% { stroke-dashoffset: 0; }
   80% { stroke-dashoffset: 0; }
-  85% { stroke-dashoffset: -651}
-  100% { stroke-dashoffset: -651; }
+  85% { stroke-dashoffset: -217}
+  100% { stroke-dashoffset: -217; }
 }
 
 @keyframes dash2 {
@@ -102,6 +150,6 @@
 
 @media only screen and (min-width: 612px) {
   .stroke-single {
-    stroke-width: 0.2px;
+    stroke-width: 0.13px;
   }
 }
