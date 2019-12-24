@@ -1,9 +1,6 @@
 .stroke-single {
-  stroke-width: 1px;
+  stroke-width: .8px;
   stroke: #14d80f;
-}
-
-.stroke-single:not(.straightright) {
 }
 
 .straightright {
@@ -207,7 +204,7 @@
   67% { stroke-dashoffset: 217; }
   69% { stroke-dashoffset: 0; }
   80% { stroke-dashoffset: 0; }
-  91% { stroke-dashoffset: -217}
+  92% { stroke-dashoffset: -217}
   100% { stroke-dashoffset: -217; }
 }
 
@@ -216,7 +213,7 @@
   68% { stroke-dashoffset: 217; }
   70% { stroke-dashoffset: 0; }
   80% { stroke-dashoffset: 0; }
-  91% { stroke-dashoffset: -217}
+  92% { stroke-dashoffset: -217}
   100% { stroke-dashoffset: -217; }
 }
 
@@ -225,7 +222,7 @@
   69% { stroke-dashoffset: 217; }
   71% { stroke-dashoffset: 0; }
   80% { stroke-dashoffset: 0; }
-  91% { stroke-dashoffset: -217}
+  92% { stroke-dashoffset: -217}
   100% { stroke-dashoffset: -217; }
 }
 
@@ -234,7 +231,7 @@
   70% { stroke-dashoffset: 217; }
   72% { stroke-dashoffset: 0; }
   80% { stroke-dashoffset: 0; }
-  93% { stroke-dashoffset: -217}
+  92% { stroke-dashoffset: -217}
   100% { stroke-dashoffset: -217; }
 }
 
@@ -243,7 +240,7 @@
   71% { stroke-dashoffset: 217; }
   73% { stroke-dashoffset: 0; }
   80% { stroke-dashoffset: 0; }
-  93% { stroke-dashoffset: -217}
+  92% { stroke-dashoffset: -217}
   100% { stroke-dashoffset: -217; }
 }
 
@@ -252,7 +249,7 @@
   72% { stroke-dashoffset: 217; }
   74% { stroke-dashoffset: 0; }
   80% { stroke-dashoffset: 0; }
-  93% { stroke-dashoffset: -217}
+  92% { stroke-dashoffset: -217}
   100% { stroke-dashoffset: -217; }
 }
 
@@ -261,7 +258,7 @@
   73% { stroke-dashoffset: 217; }
   75% { stroke-dashoffset: 0; }
   80% { stroke-dashoffset: 0; }
-  96% { stroke-dashoffset: -217}
+  92% { stroke-dashoffset: -217}
   100% { stroke-dashoffset: -217; }
 }
 
@@ -270,7 +267,7 @@
   74% { stroke-dashoffset: 217; }
   76% { stroke-dashoffset: 0; }
   80% { stroke-dashoffset: 0; }
-  96% { stroke-dashoffset: -217}
+  92% { stroke-dashoffset: -217}
   100% { stroke-dashoffset: -217; }
 }
 
@@ -279,7 +276,7 @@
   75% { stroke-dashoffset: 217; }
   77% { stroke-dashoffset: 0; }
   80% { stroke-dashoffset: 0; }
-  96% { stroke-dashoffset: -217}
+  92% { stroke-dashoffset: -217}
   100% { stroke-dashoffset: -217; }
 }
 
