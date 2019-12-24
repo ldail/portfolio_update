@@ -5,7 +5,9 @@ body {
   line-height: 25px;
   font-family: Arial, Helvetica, sans-serif;
 }
-
+.index *:not(h1) {
+  overflow: hidden;
+}
 .bold {
   font-weight: bold;
 }
@@ -421,7 +423,7 @@ h4 {
   45% { stroke: white; }
   50% { stroke: #14d80f; }
   88% { stroke: #14d80f; }
-  91% { stroke: white; }
+  96% { stroke: white; }
   100% { stroke: white; }
 }
 
