@@ -85,19 +85,24 @@ a { color: white; text-decoration: none; }
   margin-top: 80vh;
 }
 
-.circle-back {
-  color: red;
-  background-color: red;
-  fill: red;
+.container {
+  flex: 1;
+
 }
 
-
 .circle-wrapper {
-  background: #ddd;
-  border-radius: 50%;
-  height: 0;
-  min-width: 50vh;
-  min-height: 50vh;
+  background: #333333;
+  fill: #333333;
+  stroke: #fff;
+  stroke-width: .5px;
+  animation: circleborder 18s infinite linear;
+  /* animation-delay: 2s; */
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
   /* flex: 1;
   border-radius: 50%;
   width: 80vw;
@@ -123,8 +128,12 @@ h1 {
   font-size: 44px;
   border-bottom: 1px solid white;
   padding-bottom: 10px;
-  width: 80%;
-  margin: 0 auto;
+  width: 60%;
+  position: absolute;
+  margin-top: -10%;
+  animation: hidetext1 18s linear infinite;
+  /* animation-delay: 2s; */
+
 }
 
 h1 span {
@@ -139,12 +148,32 @@ h2 {
   margin-top: 15px;
   font-weight: normal;
   font-size: 24px;
+  position: absolute;
+  margin-top: 20%;
+  animation: hidetext1 18s linear infinite;
+  /* animation-delay: 2s; */
 }
 
 h2 span {
   display: block;
   margin: 0;
   padding: 0;
+}
+
+#hidden-text {
+  opacity: 0%;
+  animation: hidetext2 18s linear infinite;
+  /* animation-delay: 2s; */
+  color: #14d80f;
+  position: absolute;
+  font-size: 22px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: normal;
+}
+
+#hidden-text span {
+  display: block;
+  padding: 5px;
 }
 
 
@@ -389,6 +418,33 @@ h4 {
   text-align: center;
   margin-bottom: 50px;
   font-size: 14px;
+}
+
+@keyframes circleborder {
+  0% { stroke: white; }
+  45% { stroke: white; }
+  50% { stroke: #14d80f; }
+  88% { stroke: #14d80f; }
+  91% { stroke: white; }
+  100% { stroke: white; }
+}
+
+@keyframes hidetext1 {
+  0% { opacity: 100%; }
+  50% { opacity: 100%; }
+  55% { opacity: 0%; }
+  82% { opacity: 0%; }
+  86% { opacity: 100%; }
+  100% { opacity: 100%; }
+}
+
+@keyframes hidetext2 {
+  0% { opacity: 0%; }
+  55% { opacity: 0%; }
+  60% { opacity: 100%; }
+  78% { opacity: 100%; }
+  81% { opacity: 0%; }
+  100% { opacity: 0%; }
 }
 
 
