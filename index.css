@@ -419,21 +419,21 @@ h4 {
 }
 
 @keyframes hidetext1 {
-  0% { opacity: 100%; }
-  50% { opacity: 100%; }
-  55% { opacity: 0%; }
-  82% { opacity: 0%; }
-  86% { opacity: 100%; }
-  100% { opacity: 100%; }
+  0% { opacity: 1.0; }
+  50% { opacity: 1.0; }
+  55% { opacity: 0; }
+  82% { opacity: 0; }
+  86% { opacity: 1.0; }
+  100% { opacity: 1.0; }
 }
 
 @keyframes hidetext2 {
-  0% { opacity: 0%; }
-  55% { opacity: 0%; }
-  60% { opacity: 100%; }
-  78% { opacity: 100%; }
-  81% { opacity: 0%; }
-  100% { opacity: 0%; }
+  0% { opacity: 0; }
+  55% { opacity: 0; }
+  60% { opacity: 1.0; }
+  78% { opacity: 1.0; }
+  81% { opacity: 0; }
+  100% { opacity: 0; }
 }
 
 @media only screen and (min-width: 768px) {
