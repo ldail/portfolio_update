@@ -13,108 +13,108 @@
 #path8852 { /* curly path 1 */
   stroke-dasharray: 651;
   stroke-dashoffset: 651;
-  animation: dash1 20s linear infinite;
+  animation: dash1 16s linear infinite;
   /* animation-delay: 2s; */
 }
 
 #path8858 { /* curly path 2 */
   stroke-dasharray: 698;
   stroke-dashoffset: 698;
-  animation: dash2 20s linear infinite;
+  animation: dash2 16s linear infinite;
   /* animation-delay: 2s; */
 }
 
 #path8862 { /* culy path 3 */
   stroke-dasharray: 672;
   stroke-dashoffset: 672;
-  animation: dash3 20s linear infinite;
+  animation: dash3 16s linear infinite;
   /* animation-delay: 2s; */
 }
 
 #path8866 { /* culy path 4 */
   stroke-dasharray: 678;
   stroke-dashoffset: 678;
-  animation: dash4 20s linear infinite;
+  animation: dash4 16s linear infinite;
   /* animation-delay: 2s; */
 }
 
 #path8870 { /* culy path 5 */
   stroke-dasharray: 723;
   stroke-dashoffset: 723;
-  animation: dash5 20s linear infinite;
+  animation: dash5 16s linear infinite;
   /* animation-delay: 2s; */
 }
 
 #path8878 { /* culy path 6 */
   stroke-dasharray: 747;
   stroke-dashoffset: 747;
-  animation: dash6 20s linear infinite;
+  animation: dash6 16s linear infinite;
   /* animation-delay: 2s; */
 }
 
 #path8882 { /* culy path 7 */
   stroke-dasharray: 599;
   stroke-dashoffset: 599;
-  animation: dash7 20s linear infinite;
+  animation: dash7 16s linear infinite;
   /* animation-delay: 2s; */
 }
 
 #path8886 { /* culy path 8 */
   stroke-dasharray: 635;
   stroke-dashoffset: 635;
-  animation: dash8 20s linear infinite;
+  animation: dash8 16s linear infinite;
   /* animation-delay: 2s; */
 }
 
 #path8898 { /* culy path 9 */
   stroke-dasharray: 752;
   stroke-dashoffset: 752;
-  animation: dash9 20s linear infinite;
+  animation: dash9 16s linear infinite;
   /* animation-delay: 2s; */
 }
 
 #straightright1 { /* straight path 1 */
-  animation: straightdash1 20s linear infinite;
+  animation: straightdash1 16s linear infinite;
   /* animation-delay: 2s; */
 }
 
 #straightright2 { /* straight path 2 */
-  animation: straightdash2 20s linear infinite;
+  animation: straightdash2 16s linear infinite;
   /* animation-delay: 2s; */
 }
 
 #straightright3 { /* straight path 3 */
-  animation: straightdash3 20s linear infinite;
+  animation: straightdash3 16s linear infinite;
   /* animation-delay: 2s; */
 }
 
 #straightright4 { /* straight path 4 */
-  animation: straightdash4 20s linear infinite;
+  animation: straightdash4 16s linear infinite;
   /* animation-delay: 2s; */
 }
 
 #straightright5 { /* straight path 5 */
-  animation: straightdash5 20s linear infinite;
+  animation: straightdash5 16s linear infinite;
   /* animation-delay: 2s; */
 }
 
 #straightright6 { /* straight path 6 */
-  animation: straightdash6 20s linear infinite;
+  animation: straightdash6 16s linear infinite;
   /* animation-delay: 2s; */
 }
 
 #straightright7 { /* straight path 7 */
-  animation: straightdash7 20s linear infinite;
+  animation: straightdash7 16s linear infinite;
   /* animation-delay: 2s; */
 }
 
 #straightright8 { /* straight path 8 */
-  animation: straightdash8 20s linear infinite;
+  animation: straightdash8 16s linear infinite;
   /* animation-delay: 2s; */
 }
 
 #straightright9 { /* straight path 9 */
-  animation: straightdash9 20s linear infinite;
+  animation: straightdash9 16s linear infinite;
   /* animation-delay: 2s; */
 }
 

@@ -100,7 +100,7 @@ a { color: white; text-decoration: none; }
   height: 467px;
   border-radius: 50%;
   background: #222222;
-  animation: circleborder 20s infinite linear;
+  animation: circleborder 16s infinite linear;
   /* animation-delay: 2s; */
   position: relative;
   display: flex;
@@ -123,7 +123,7 @@ a { color: white; text-decoration: none; }
 }
 
 .index h1 {
-  animation: hidetext1 20s linear infinite;
+  animation: hidetext1 16s linear infinite;
   /* animation-delay: 2s; */
 }
 
@@ -142,7 +142,7 @@ h2 {
 }
 
 .index h2 {
-  animation: hidetext1 20s linear infinite;
+  animation: hidetext1 16s linear infinite;
   /* animation-delay: 2s; */
 }
 
@@ -156,7 +156,7 @@ h2 span {
   opacity: 0;
   filter: alpha(opacity=0);
 
-  animation: hidetext2 20s linear infinite;
+  animation: hidetext2 16s linear infinite;
   /* animation-delay: 2s; */
   color: #14d80f;
   position: absolute;
@@ -297,7 +297,8 @@ main {
   margin-bottom: 15px;
   background-color: white;
   margin-left: 50px;
-  background: url('headshot.png') no-repeat center center;
+  background: url('headshot2.png') no-repeat center center;
+  border-radius: 60%;
   background-size: contain;
 }
 h3 {
