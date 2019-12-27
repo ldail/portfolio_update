@@ -51,7 +51,7 @@ a { color: white; text-decoration: none; }
   top: 0;
   opacity: 0;
   animation: zero-to-hundred .5s forwards;
-  -webkit-animation: zero-to-hundred .5s forwards;
+  -webkit-animation: zero-to-hundred .4s forwards;
 }
 
 .hidden {
