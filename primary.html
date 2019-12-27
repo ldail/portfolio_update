@@ -22,7 +22,7 @@
     <nav>
       <ul class="page-nav">
         <li class="active"><a href="primary.html">bio</a></li>
-        <li><a href="projects.html">projects</a></li>
+        <li id="other-nav"><a href="projects.html">projects</a></li>
       </ul>
     </nav>
     <section class="data about">
@@ -112,5 +112,18 @@
     </section>
     </div>
   </main>
+  <div class="wrapper hidden" id="transition-element"></div>
+  <script>
+    const circle = document.getElementById('other-nav');
+    circle.addEventListener('click', function(e) {
+    e.preventDefault();
+    setTimeout(function() { 
+      window.location = '/projects.html';
+    }, 800);
+    const element = document.getElementById('transition-element');
+    element.classList.remove('hidden');
+    element.classList.add('overlay-quick');
+  })
+  </script>
 </body>
 </html>

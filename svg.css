@@ -7,6 +7,7 @@
   stroke-dasharray: 217;
   stroke-dashoffset: 217;
   animation: straightdash 14s linear infinite;
+  -webkit-animation: straightdash 14s linear infinite;
   /* animation-delay: 2s; */
 }
 
@@ -15,6 +16,8 @@
   stroke-dashoffset: 651;
   animation: dash1 16s linear infinite;
   /* animation-delay: 2s; */
+  -webkit-animation: dash1 16s linear infinite;
+
 }
 
 #path8858 { /* curly path 2 */
@@ -22,6 +25,8 @@
   stroke-dashoffset: 698;
   animation: dash2 16s linear infinite;
   /* animation-delay: 2s; */
+  -webkit-animation: dash2 16s linear infinite;
+
 }
 
 #path8862 { /* culy path 3 */
@@ -29,6 +34,8 @@
   stroke-dashoffset: 672;
   animation: dash3 16s linear infinite;
   /* animation-delay: 2s; */
+  -webkit-animation: dash3 16s linear infinite;
+
 }
 
 #path8866 { /* culy path 4 */
@@ -36,12 +43,15 @@
   stroke-dashoffset: 678;
   animation: dash4 16s linear infinite;
   /* animation-delay: 2s; */
+  -webkit-animation: dash4 16s linear infinite;
+
 }
 
 #path8870 { /* culy path 5 */
   stroke-dasharray: 723;
   stroke-dashoffset: 723;
   animation: dash5 16s linear infinite;
+  -webkit-animation: dash5 16s linear infinite;
   /* animation-delay: 2s; */
 }
 
@@ -49,6 +59,7 @@
   stroke-dasharray: 747;
   stroke-dashoffset: 747;
   animation: dash6 16s linear infinite;
+  -webkit-animation: dash6 16s linear infinite;
   /* animation-delay: 2s; */
 }
 
@@ -56,6 +67,7 @@
   stroke-dasharray: 599;
   stroke-dashoffset: 599;
   animation: dash7 16s linear infinite;
+  -webkit-animation: dash7 16s linear infinite;
   /* animation-delay: 2s; */
 }
 
@@ -63,6 +75,7 @@
   stroke-dasharray: 635;
   stroke-dashoffset: 635;
   animation: dash8 16s linear infinite;
+  -webkit-animation: dash8 16s linear infinite;
   /* animation-delay: 2s; */
 }
 
@@ -70,51 +83,61 @@
   stroke-dasharray: 752;
   stroke-dashoffset: 752;
   animation: dash9 16s linear infinite;
+  -webkit-animation: dash9 16s linear infinite;
   /* animation-delay: 2s; */
 }
 
 #straightright1 { /* straight path 1 */
   animation: straightdash1 16s linear infinite;
+  -webkit-animation: straightdash1 16s linear infinite;
   /* animation-delay: 2s; */
 }
 
 #straightright2 { /* straight path 2 */
   animation: straightdash2 16s linear infinite;
+  -webkit-animation: straightdash2 16s linear infinite;
   /* animation-delay: 2s; */
 }
 
 #straightright3 { /* straight path 3 */
   animation: straightdash3 16s linear infinite;
+  -webkit-animation: straightdash3 16s linear infinite;
   /* animation-delay: 2s; */
 }
 
 #straightright4 { /* straight path 4 */
   animation: straightdash4 16s linear infinite;
+  -webkit-animation: straightdash4 16s linear infinite;
   /* animation-delay: 2s; */
 }
 
 #straightright5 { /* straight path 5 */
   animation: straightdash5 16s linear infinite;
+  -webkit-animation: straightdash5 16s linear infinite;
   /* animation-delay: 2s; */
 }
 
 #straightright6 { /* straight path 6 */
   animation: straightdash6 16s linear infinite;
+  -webkit-animation: straightdash6 16s linear infinite;
   /* animation-delay: 2s; */
 }
 
 #straightright7 { /* straight path 7 */
   animation: straightdash7 16s linear infinite;
+  -webkit-animation: straightdash7 16s linear infinite;
   /* animation-delay: 2s; */
 }
 
 #straightright8 { /* straight path 8 */
   animation: straightdash8 16s linear infinite;
+  -webkit-animation: straightdash8 16s linear infinite;
   /* animation-delay: 2s; */
 }
 
 #straightright9 { /* straight path 9 */
   animation: straightdash9 16s linear infinite;
+  -webkit-animation: straightdash9 16s linear infinite;
   /* animation-delay: 2s; */
 }
 
@@ -126,7 +149,24 @@
   100% { stroke-dashoffset: -651; }
 }
 
+@-webkit-keyframes dash1 {
+  0% { stroke-dashoffset: 651; }
+  12% { stroke-dashoffset: 0; }
+  54% { stroke-dashoffset: 0; }
+  66% { stroke-dashoffset: -651; }
+  100% { stroke-dashoffset: -651; }
+}
+
 @keyframes dash2 {
+  0% { stroke-dashoffset: 698; }
+  8% { stroke-dashoffset: 698; }
+  20% { stroke-dashoffset: 0; }
+  56% { stroke-dashoffset: 0; }
+  68% { stroke-dashoffset: -698; }
+  100% { stroke-dashoffset: -698; }
+}
+
+@-webkit-keyframes dash2 {
   0% { stroke-dashoffset: 698; }
   8% { stroke-dashoffset: 698; }
   20% { stroke-dashoffset: 0; }
@@ -144,7 +184,25 @@
   100% { stroke-dashoffset: -672; }
 }
 
+@-webkit-keyframes dash3 {
+  0% { stroke-dashoffset: 672; }
+  16% { stroke-dashoffset: 672; }
+  24% { stroke-dashoffset: 0; }
+  58% { stroke-dashoffset: 0; }
+  70% { stroke-dashoffset: -672; }
+  100% { stroke-dashoffset: -672; }
+}
+
 @keyframes dash4 {
+  0% { stroke-dashoffset: 678; }
+  20% { stroke-dashoffset: 678; }
+  28% { stroke-dashoffset: 0; }
+  60% { stroke-dashoffset: 0; }
+  72% { stroke-dashoffset: -678; }
+  100% { stroke-dashoffset: -678; }
+}
+
+@-webkit-keyframes dash4 {
   0% { stroke-dashoffset: 678; }
   20% { stroke-dashoffset: 678; }
   28% { stroke-dashoffset: 0; }
@@ -162,7 +220,25 @@
   100% { stroke-dashoffset: -723; }
 }
 
+@-webkit-keyframes dash5 {
+  0% { stroke-dashoffset: 723; }
+  24% { stroke-dashoffset: 723; }
+  30% { stroke-dashoffset: 0; }
+  62% { stroke-dashoffset: 0; }
+  74% { stroke-dashoffset: -723; }
+  100% { stroke-dashoffset: -723; }
+}
+
 @keyframes dash6 {
+  0% { stroke-dashoffset: 747; }
+  28% { stroke-dashoffset: 747; }
+  32% { stroke-dashoffset: 0; }
+  64% { stroke-dashoffset: 0; }
+  76% { stroke-dashoffset: -747; }
+  100% { stroke-dashoffset: -747; }
+}
+
+@-webkit-keyframes dash6 {
   0% { stroke-dashoffset: 747; }
   28% { stroke-dashoffset: 747; }
   32% { stroke-dashoffset: 0; }
@@ -180,7 +256,25 @@
   100% { stroke-dashoffset: -599; }
 }
 
+@-webkit-keyframes dash7 {
+  0% { stroke-dashoffset: 599; }
+  30% { stroke-dashoffset: 599; }
+  34% { stroke-dashoffset: 0; }
+  66% { stroke-dashoffset: 0; }
+  76% { stroke-dashoffset: -599; }
+  100% { stroke-dashoffset: -599; }
+}
+
 @keyframes dash8 {
+  0% { stroke-dashoffset: 635; }
+  32% { stroke-dashoffset: 635; }
+  36% { stroke-dashoffset: 0; }
+  68% { stroke-dashoffset: 0; }
+  78% { stroke-dashoffset: -635; }
+  100% { stroke-dashoffset: -635; }
+}
+
+@-webkit-keyframes dash8 {
   0% { stroke-dashoffset: 635; }
   32% { stroke-dashoffset: 635; }
   36% { stroke-dashoffset: 0; }
@@ -198,7 +292,25 @@
   100% { stroke-dashoffset: -752; }
 }
 
+@-webkit-keyframes dash9 {
+  0% { stroke-dashoffset: 752; }
+  34% { stroke-dashoffset: 752; }
+  38% { stroke-dashoffset: 0; }
+  70% { stroke-dashoffset: 0; }
+  78% { stroke-dashoffset: -752; }
+  100% { stroke-dashoffset: -752; }
+}
+
 @keyframes straightdash1 {
+  0% { stroke-dashoffset: 217; }
+  58% { stroke-dashoffset: 217; }
+  70% { stroke-dashoffset: 0; }
+  88% { stroke-dashoffset: 0; }
+  92% { stroke-dashoffset: -217}
+  100% { stroke-dashoffset: -217; }
+}
+
+@-webkit-keyframes straightdash1 {
   0% { stroke-dashoffset: 217; }
   58% { stroke-dashoffset: 217; }
   70% { stroke-dashoffset: 0; }
@@ -216,7 +328,25 @@
   100% { stroke-dashoffset: -217; }
 }
 
+@-webkit-keyframes straightdash2 {
+  0% { stroke-dashoffset: 217; }
+  60% { stroke-dashoffset: 217; }
+  72% { stroke-dashoffset: 0; }
+  88% { stroke-dashoffset: 0; }
+  92% { stroke-dashoffset: -217}
+  100% { stroke-dashoffset: -217; }
+}
+
 @keyframes straightdash3 {
+  0% { stroke-dashoffset: 217; }
+  62% { stroke-dashoffset: 217; }
+  74% { stroke-dashoffset: 0; }
+  88% { stroke-dashoffset: 0; }
+  92% { stroke-dashoffset: -217}
+  100% { stroke-dashoffset: -217; }
+}
+
+@-webkit-keyframes straightdash3 {
   0% { stroke-dashoffset: 217; }
   62% { stroke-dashoffset: 217; }
   74% { stroke-dashoffset: 0; }
@@ -234,7 +364,25 @@
   100% { stroke-dashoffset: -217; }
 }
 
+@-webkit-keyframes straightdash4 {
+  0% { stroke-dashoffset: 217; }
+  64% { stroke-dashoffset: 217; }
+  76% { stroke-dashoffset: 0; }
+  88% { stroke-dashoffset: 0; }
+  92% { stroke-dashoffset: -217}
+  100% { stroke-dashoffset: -217; }
+}
+
 @keyframes straightdash5 {
+  0% { stroke-dashoffset: 217; }
+  66% { stroke-dashoffset: 217; }
+  78% { stroke-dashoffset: 0; }
+  88% { stroke-dashoffset: 0; }
+  92% { stroke-dashoffset: -217}
+  100% { stroke-dashoffset: -217; }
+}
+
+@-webkit-keyframes straightdash5 {
   0% { stroke-dashoffset: 217; }
   66% { stroke-dashoffset: 217; }
   78% { stroke-dashoffset: 0; }
@@ -252,7 +400,25 @@
   100% { stroke-dashoffset: -217; }
 }
 
+@-webkit-keyframes straightdash6 {
+  0% { stroke-dashoffset: 217; }
+  68% { stroke-dashoffset: 217; }
+  80% { stroke-dashoffset: 0; }
+  88% { stroke-dashoffset: 0; }
+  92% { stroke-dashoffset: -217}
+  100% { stroke-dashoffset: -217; }
+}
+
 @keyframes straightdash7 {
+  0% { stroke-dashoffset: 217; }
+  70% { stroke-dashoffset: 217; }
+  80% { stroke-dashoffset: 0; }
+  88% { stroke-dashoffset: 0; }
+  92% { stroke-dashoffset: -217}
+  100% { stroke-dashoffset: -217; }
+}
+
+@-webkit-keyframes straightdash7 {
   0% { stroke-dashoffset: 217; }
   70% { stroke-dashoffset: 217; }
   80% { stroke-dashoffset: 0; }
@@ -270,7 +436,25 @@
   100% { stroke-dashoffset: -217; }
 }
 
+@-webkit-keyframes straightdash8 {
+  0% { stroke-dashoffset: 217; }
+  72% { stroke-dashoffset: 217; }
+  82% { stroke-dashoffset: 0; }
+  88% { stroke-dashoffset: 0; }
+  92% { stroke-dashoffset: -217}
+  100% { stroke-dashoffset: -217; }
+}
+
 @keyframes straightdash9 {
+  0% { stroke-dashoffset: 217; }
+  74% { stroke-dashoffset: 217; }
+  82% { stroke-dashoffset: 0; }
+  88% { stroke-dashoffset: 0; }
+  92% { stroke-dashoffset: -217}
+  100% { stroke-dashoffset: -217; }
+}
+
+@-webkit-keyframes straightdash9 {
   0% { stroke-dashoffset: 217; }
   74% { stroke-dashoffset: 217; }
   82% { stroke-dashoffset: 0; }

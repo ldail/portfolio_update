@@ -36,6 +36,28 @@ a { color: white; text-decoration: none; }
   position: relative;
 }
 
+.wrapper.overlay {
+  background-color: #222222;
+  position: fixed;
+  top: 0;
+  opacity: 0;
+  animation: zero-to-hundred 2s forwards;
+  -webkit-animation: zero-to-hundred 2s forwards;
+}
+
+.wrapper.overlay-quick {
+  background-color: #222222;
+  position: fixed;
+  top: 0;
+  opacity: 0;
+  animation: zero-to-hundred .5s forwards;
+  -webkit-animation: zero-to-hundred .5s forwards;
+}
+
+.hidden {
+  display: none;
+}
+
 
 .background-spiral {
   position: absolute;
@@ -155,7 +177,6 @@ h2 span {
 #hidden-text {
   opacity: 0;
   filter: alpha(opacity=0);
-
   animation: hidetext2 16s linear infinite;
   /* animation-delay: 2s; */
   color: #14d80f;
@@ -176,22 +197,12 @@ h2 span {
 
 .header, main {
   background-color: #343434;
+  opacity: 0;
+  animation: zero-to-hundred 1s forwards;
+  -webkit-animation: zero-to-hundred 1s forwards;
 }
 
 .header {
-  /* border: 1px solid #14d80f;
-  border-radius: 50%;
-  width: 200vw;
-  height: 500px;
-  overflow: hidden;
-  top: 0;
-  left: -50vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  margin-top: -380px;
-  min-width: 500px;
-  position: relative; */
   position: relative;
   height: 150px;
   border-bottom-left-radius: 50% 20%;
@@ -280,6 +291,27 @@ main {
 
 .data {
   font-size: 14px;
+}
+
+.about {
+  opacity: 0;
+  animation: zero-to-hundred 1s forwards;
+  -webkit-animation: zero-to-hundred 1s forwards;
+  animation-delay: .5s;
+}
+
+.tech {
+  opacity: 0;
+  animation: zero-to-hundred 1s forwards;
+  -webkit-animation: zero-to-hundred 1s forwards;
+  animation-delay: 1s;
+}
+
+.experience {
+  opacity: 0;
+  animation: zero-to-hundred 1s forwards;
+  -webkit-animation: zero-to-hundred 1s forwards;
+  animation-delay: 1.5s;
 }
 
 .about .mobile-flex {
@@ -423,6 +455,27 @@ h4 {
   font-size: 14px;
 }
 
+.project:first-of-type {
+  opacity: 0;
+  animation: zero-to-hundred 1s forwards;
+  -webkit-animation: zero-to-hundred 1s forwards;
+  animation-delay: .5s;
+}
+
+.project:nth-child(2) {
+  opacity: 0;
+  animation: zero-to-hundred 1s forwards;
+  -webkit-animation: zero-to-hundred 1s forwards;
+  animation-delay: 1s;
+}
+
+.project:nth-child(3) {
+  opacity: 0;
+  animation: zero-to-hundred 1s forwards;
+  -webkit-animation: zero-to-hundred 1s forwards;
+  animation-delay: 1.5s;
+}
+
 @keyframes circleborder {
   0% { border: 2px solid white; }
   28% { border: 2px solid white; }
@@ -432,7 +485,26 @@ h4 {
   100% { border: 2px solid white; }
 }
 
+@-webkit-keyframes circleborder {
+  0% { border: 2px solid white; }
+  28% { border: 2px solid white; }
+  40% { border: 2px solid #14d80f; }
+  88% { border: 2px solid #14d80f; }
+  96% { border: 2px solid white; }
+  100% { border: 2px solid white; }
+}
+
+
 @keyframes hidetext1 {
+  0% { opacity: 1.0; }
+  40% { opacity: 1.0; }
+  44% { opacity: 0; }
+  68% { opacity: 0; }
+  76% { opacity: 1.0; }
+  100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes hidetext1 {
   0% { opacity: 1.0; }
   40% { opacity: 1.0; }
   44% { opacity: 0; }
@@ -448,6 +520,35 @@ h4 {
   64% { opacity: 1.0; }
   68% { opacity: 0; }
   100% { opacity: 0; }
+}
+
+@-webkit-keyframes hidetext2 {
+  0% { opacity: 0; }
+  44% { opacity: 0; }
+  52% { opacity: 1.0; }
+  64% { opacity: 1.0; }
+  68% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+@keyframes zero-to-hundred {
+  0% { opacity: 0; }
+  100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes zero-to-hundred {
+  0% { opacity: 0; }
+  100% { opacity: 1.0; }
+}
+
+@keyframes hundred-to-zero {
+  0% { opacity: 1.0; }
+  100% { opacity: 0; }
+}
+
+@-webkit-keyframes hundred-to-zero {
+  0% { opacity: 1.0 }
+  100% { opacity: 0.0 }
 }
 
 @media only screen and (min-width: 768px) {

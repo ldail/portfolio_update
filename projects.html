@@ -19,15 +19,14 @@
     </ul>
   </section>
   <main>
+
     <nav>
       <ul class="page-nav">
-        <li><a href="primary.html">bio</a></li>
+        <li id="other-nav"><a href="primary.html">bio</a></li>
         <li class="active"><a href="projects.html">projects</a></li>
       </ul>
     </nav>
     <section class="primary-data">
-      <!-- <object type="image/svg+xml" data="drawing.svg" class="full-page">
-      </object> -->
       <article class="project">
         <h3>Now Playing</h3>
         <div class="project-links">
@@ -90,5 +89,18 @@
       </article>
     </section>
   </main>
+  <div class="wrapper hidden" id="transition-element"></div>
+  <script>
+    const circle = document.getElementById('other-nav');
+    circle.addEventListener('click', function(e) {
+    e.preventDefault();
+    setTimeout(function() { 
+      window.location = '/primary.html';
+    }, 800);
+    const element = document.getElementById('transition-element');
+    element.classList.remove('hidden');
+    element.classList.add('overlay-quick');
+  })
+  </script>
 </body>
 </html>
