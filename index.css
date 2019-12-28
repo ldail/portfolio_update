@@ -41,8 +41,8 @@ a { color: white; text-decoration: none; }
   position: fixed;
   top: 0;
   opacity: 0;
-  animation: zero-to-hundred 2s forwards;
-  -webkit-animation: zero-to-hundred 2s forwards;
+  animation: zero-to-hundred 1.5s forwards;
+  -webkit-animation: zero-to-hundred 1.5s forwards;
 }
 
 .wrapper.overlay-quick {
