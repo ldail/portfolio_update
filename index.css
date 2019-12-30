@@ -8,6 +8,7 @@ body {
 .index *:not(h1) {
   overflow: hidden;
 }
+
 .bold {
   font-weight: bold;
 }
@@ -204,23 +205,23 @@ h2 span {
 
 .header {
   position: relative;
-  height: 150px;
-  border-bottom-left-radius: 50% 20%;
-  border-bottom-right-radius: 50% 20%;
-  border: 1px solid #14d80f;
-  margin: -1px;
+  height: 130px;
+  /* border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%; */
+  border-bottom: 1px solid #14d80f;
+  margin: 2px;
 }
 
 .primary h1 {
   color: #14d80f;
   border: none;
   font-size: 44px;
-  margin-top: 30px;
+  padding-top: 30px;
 }
 
 .primary h2 {
   font-size: 16px;
-  margin-top: 5px;
+  margin-top: 0px;
   padding: 0;
   font-weight: bold;
 }
@@ -237,7 +238,7 @@ h2 span {
   width: 30px;
 }
 
-.contact-nav a:hover {
+.contact-nav a img:hover {
   filter: invert(53%) sepia(20%) saturate(6385%) hue-rotate(83deg) brightness(116%) contrast(97%);
   transition: .5s all;
 }
@@ -416,6 +417,7 @@ h4 {
   margin: 0;
   padding: 0;
   font-size: 14px;
+  margin-bottom: 10px;
 }
 
 .projects h3 {
@@ -430,6 +432,10 @@ h4 {
   justify-content: space-evenly;
   padding: 0;
   margin: 0;
+}
+
+.projects .screenshot-link {
+  width: auto;
 }
 
 .projects .screenshot {
@@ -475,6 +481,9 @@ h4 {
   -webkit-animation: zero-to-hundred 1s forwards;
   animation-delay: 1.5s;
 }
+
+/*Keyframes */
+
 
 @keyframes circleborder {
   0% { border: 2px solid white; }
@@ -591,13 +600,13 @@ h4 {
 }
   .primary h2 {
     position: absolute;
-    top: 20px;
+    top: 15px;
     left: 45px;
   }
 
   .primary .contact-nav {
     position: absolute;
-    top: 20px;
+    top: 15px;
     right: 45px;
   }
 
@@ -618,6 +627,23 @@ h4 {
     padding-right: 20%;
   }
 
+  .project {
+    position: relative;
+    padding-right: 400px;
+    height: 500px;
+  }
+
+
+  .project *:not(.screenshot) {
+    margin-top: 20px;
+  }
+
+  .project .screenshot {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
   .about .mobile-flex {
     display: block;
   }
@@ -630,11 +656,12 @@ h4 {
   .headshot {
     position: absolute;
     top: 0;
-    right: 50px;
+    right: 5%;
   }
 
   .desktop-reduce {
     margin-right: 20%;
+    max-width: 1200px;
   }
 
   .contact-nav li {
@@ -648,5 +675,12 @@ h4 {
   .circle-wrapper {
     height: 320px;
     width: 320px;
+  }
+}
+
+
+@media only screen and (min-width: 1679px) {
+  .headshot {
+    right: 10%;
   }
 }
