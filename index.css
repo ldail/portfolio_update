@@ -579,16 +579,16 @@ h4 {
   .primary h1 {
     font-size: 66px;
   }
+
+  .primary h2 {
+    margin-top: 15px;
+  }
 }
 
 @media only screen and (min-width: 768px) and (min-height: 600px) {
   .index h1 {
     font-size: 66px;
     padding-bottom: 20px;
-  }
-
-  .primary h1 {
-    margin-bottom: 10px;
   }
 }
 
