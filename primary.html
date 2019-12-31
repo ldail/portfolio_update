@@ -25,10 +25,11 @@
   <main>
     <nav>
       <ul class="page-nav">
-        <li class="active"><a href="primary.html">bio</a></li>
-        <li id="other-nav"><a href="projects.html">projects</a></li>
+        <li class="active"><a href="primary.html" id="to-bio">bio</a></li>
+        <li class="other-nav"><a href="projects.html" id="to-projects">projects</a></li>
       </ul>
     </nav>
+    <section class="primary-data">
     <section class="data about">
       <div class="desktop-flex">
         <div class="mobile-flex">
@@ -114,19 +115,106 @@
       <div class="resume-button-container"><a href="Leon_Dail_Software_Engineer_Resume.pdf" target="_blank" class="resume-button">View Resume</a></div>
     </section>
     </div>
+  </section>
+  <section class="primary-data display-none">
+    <h2 class="display-none">Projects</h2>
+    <article class="project">
+      <h3>Now Playing</h3>
+      <div class="project-links">
+        <a href="https://playing-phi-ten.now.sh" class="special" target="_blank">Visit</a>
+        <a href="https://github.com/thinkful-ei-gecko/NowPlaying-Client" class="special" target="_blank">Github</a>
+      </div>
+      <p class="project-description">
+        Now Playing provides users a platform to engage 
+        with others while watching movies. Users are able 
+        to see comments in real-time made by others as
+        they watch along. Now Playing utilizes the TMDB 
+        API to offer an extended breadth of movies.
+      </p>
+      <a href="NowPlayingLive-screenshot.png"><img src="NowPlayingLive-screenshot.png" class="screenshot" alt="project screenshot" /></a>
+      <p class="project-tech">
+        <span class="bold">tech:</span>
+        ReactJS, Javascript, HTML5, CSS3, 
+        NodeJS, Express, Knex, APIs, PostgreSQL
+      </p>
+    </article>
+    <article class="project">
+      <h3>DirectMe</h3>
+      <div class="project-links">
+        <a href="https://directme.ldail.now.sh" class="special" target="_blank">Visit</a>
+        <a href="https://github.com/ldail/directme-Capstone" class="special" target="_blank">Github</a>
+      </div>
+      <p class="project-description">
+        Directme is a modern web directory. Users can find new websites and communities 
+        via hubs and tags. Hubs are nested categories that a user can move through until 
+        they find a topic of interest. Tags allow a user to search by keywords to find 
+        listings. Users can contribute listings with any number of imaginable tags. If 
+        the tags match a hub's nested link, the listing will be displayed there as well.
+      </p>
+      <a class="screenshot-link" href="DirectMe-screenshot.png"><img src="DirectMe-screenshot.png" class="screenshot" alt="project screenshot" /></a>
+      <p class="project-tech">
+        <span class="bold">tech:</span>
+        ReactJS, Javascript, HTML5, CSS3, 
+        NodeJS, Express, Knex, PostgreSQL
+      </p>
+    </article>
+    <article class="project">
+      <h3>El Instrumento</h3>
+      <div class="project-links">
+        <a href="https://client.ldail.now.sh" class="special" target="_blank">Visit</a>
+        <a href="https://github.com/thinkful-ei-gecko/Smiti-Leon-new-spaced-repetition-client" class="special" target="_blank">Github</a>
+      </div>
+      <p class="project-description">
+        El Instrumento helps a user learn a language using the 
+        Spaced Repetition algorithm which is proven to increase the 
+        rate of learning dramatically. This version contains beginnings to 
+        learn the Spanish language, starting with the English/Spanish 
+        translations of common musical instruments.
+      </p>
+      <a href="ElInstrumento-screenshot.png"><img src="ElInstrumento-screenshot.png" class="screenshot" alt="project screenshot" /></a>
+      <p class="project-tech">
+        <span class="bold">tech:</span>
+        ReactJS, Javascript, HTML5, CSS3, 
+        NodeJS, Express, Knex, PostgreSQL
+      </p>
+    </article>
+  </section>
   </main>
-  <div class="wrapper hidden" id="transition-element"></div>
   <script>
-    const circle = document.getElementById('other-nav');
-    circle.addEventListener('click', function(e) {
-    e.preventDefault();
-    setTimeout(function() { 
-      window.location = 'projects.html';
-    }, 300);
-    const element = document.getElementById('transition-element');
-    element.classList.remove('hidden');
-    element.classList.add('overlay-quick');
-  })
+
+    function changePage() {
+
+      //Set the navigation to active on the proper one
+      let children = document.querySelector('.page-nav').children;
+      for (let x of children) { 
+        x.classList.toggle('active');
+        x.classList.toggle('other-nav');
+      }
+      
+      //Change the main document text
+      let primary = document.querySelectorAll('.primary-data');
+      for (let x of primary) {
+        x.classList.toggle('display-none');
+      }
+    }
+
+    const active = document.querySelector('#to-bio')
+    active.addEventListener('click', function(e) {
+      e.preventDefault();
+      let currentActive = document.querySelector('.active');
+      if (currentActive.textContent !== 'bio') {
+        changePage();
+      }
+    });
+    const otherNav = document.querySelector('#to-projects');
+    otherNav.addEventListener('click', function(e) {
+      e.preventDefault();
+      let currentActive = document.querySelector('.active');
+      if (currentActive.textContent !== 'projects') {
+        changePage();
+      }
+    });
+  
   </script>
 </body>
 </html>

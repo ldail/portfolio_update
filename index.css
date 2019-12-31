@@ -23,7 +23,7 @@ a { color: white; text-decoration: none; }
   width: 100vw;
 }
 
-.for-reader {
+.display-none {
   display: none;
 }
 
@@ -46,8 +46,8 @@ a { color: white; text-decoration: none; }
   position: fixed;
   top: 0;
   opacity: 0;
-  animation: zero-to-hundred 1.5s forwards;
-  -webkit-animation: zero-to-hundred 1.5s forwards;
+  animation: zero-to-hundred .4s forwards;
+  -webkit-animation: zero-to-hundred .4s forwards;
 }
 
 .wrapper.overlay-quick {
@@ -202,9 +202,6 @@ h2 span {
 
 .header, main {
   background-color: #343434;
-  opacity: 0;
-  animation: zero-to-hundred 1s forwards;
-  -webkit-animation: zero-to-hundred 1s forwards;
 }
 
 .header {
@@ -300,23 +297,23 @@ main {
 
 .about {
   opacity: 0;
-  animation: zero-to-hundred 1s forwards;
-  -webkit-animation: zero-to-hundred 1s forwards;
-  animation-delay: .5s;
+  animation: zero-to-hundred .3s forwards;
+  -webkit-animation: zero-to-hundred .3s forwards;
+  animation-delay: .1s;
 }
 
 .tech {
   opacity: 0;
-  animation: zero-to-hundred 1s forwards;
-  -webkit-animation: zero-to-hundred 1s forwards;
-  animation-delay: 1s;
+  animation: zero-to-hundred .6s forwards;
+  -webkit-animation: zero-to-hundred .6s forwards;
+  animation-delay: .3s;
 }
 
 .experience {
   opacity: 0;
-  animation: zero-to-hundred 1s forwards;
-  -webkit-animation: zero-to-hundred 1s forwards;
-  animation-delay: 1.5s;
+  animation: zero-to-hundred .8s forwards;
+  -webkit-animation: zero-to-hundred .8s forwards;
+  animation-delay: .6s;
 }
 
 .about .mobile-flex {
@@ -424,7 +421,7 @@ h4 {
   margin-bottom: 10px;
 }
 
-.projects h3 {
+.project h3 {
   text-align: center;
   font-size: 25px;
   padding-bottom: 8px;
@@ -438,28 +435,29 @@ h4 {
   margin: 0;
 }
 
-.projects .screenshot-link {
+.screenshot-link {
   width: auto;
 }
 
-.projects .screenshot {
+.screenshot {
   width: 70%;
   max-width: 300px;
   margin: 0 auto;
 }
 
-.projects .special {
+.project .special {
   text-decoration: none;
   text-align: center;
   font-size: 18px;
 }
 
-.projects .special:hover {
+
+.project .special:hover {
   text-decoration: underline;
   transition: .5s all;
 }
 
-.projects .project-tech {
+.project-tech {
   text-align: center;
   margin-bottom: 50px;
   font-size: 14px;
@@ -467,23 +465,23 @@ h4 {
 
 .project:first-of-type {
   opacity: 0;
-  animation: zero-to-hundred 1s forwards;
-  -webkit-animation: zero-to-hundred 1s forwards;
-  animation-delay: .5s;
+  animation: zero-to-hundred .3s forwards;
+  -webkit-animation: zero-to-hundred .3s forwards;
+  animation-delay: .1s;
 }
 
 .project:nth-child(2) {
   opacity: 0;
-  animation: zero-to-hundred 1s forwards;
-  -webkit-animation: zero-to-hundred 1s forwards;
-  animation-delay: 1s;
+  animation: zero-to-hundred .6s forwards;
+  -webkit-animation: zero-to-hundred .6s forwards;
+  animation-delay: .3s;
 }
 
 .project:nth-child(3) {
   opacity: 0;
-  animation: zero-to-hundred 1s forwards;
-  -webkit-animation: zero-to-hundred 1s forwards;
-  animation-delay: 1.5s;
+  animation: zero-to-hundred .8s forwards;
+  -webkit-animation: zero-to-hundred .8s forwards;
+  animation-delay: .6s;
 }
 
 /*Keyframes */
@@ -570,7 +568,8 @@ h4 {
     width: 467px;
     height: 467px;
 }
-  .projects main {
+
+  .project {
     padding-left: 10%;
     padding-right: 10%;
   }
@@ -626,7 +625,7 @@ h4 {
     flex: 1;
   }
 
-  .projects main {
+  .project main {
     padding-left: 20%;
     padding-right: 20%;
   }
