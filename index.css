@@ -632,7 +632,7 @@ h4 {
 
   .project {
     position: relative;
-    padding-right: 400px;
+    padding-right: 500px;
     height: 500px;
   }
 
@@ -644,7 +644,7 @@ h4 {
   .project .screenshot {
     position: absolute;
     top: 0;
-    right: 0;
+    right: 100px;
   }
 
   .about .mobile-flex {
