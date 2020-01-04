@@ -443,6 +443,9 @@ h4 {
   width: 70%;
   max-width: 300px;
   margin: 0 auto;
+  max-height: 450px;
+  object-fit: cover;
+  object-position: top;
 }
 
 .project .special {
