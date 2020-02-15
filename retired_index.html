@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="index.css" />
+  <title>leon dail - web developer</title>
+</head>
+<body class="index">
+  <div class="background-wrapper">
+  <div class="wrapper">
+    <object type="image/svg+xml" data="to-right-1.svg" class="background-spiral top-spiral bg-spiral-1">
+    </object> 
+    <object type="image/svg+xml" data="to-right-2.svg" class="background-spiral top-spiral bg-spiral-2">
+    </object>
+    <object type="image/svg+xml" data="to-right-3.svg" class="background-spiral top-spiral bg-spiral-3">
+    </object> 
+    <object type="image/svg+xml" data="to-right-4.svg" class="background-spiral top-spiral bg-spiral-4">
+    </object> 
+    <object type="image/svg+xml" data="to-right-5.svg" class="background-spiral top-spiral bg-spiral-5">
+    </object> 
+    <object type="image/svg+xml" data="to-right-6.svg" class="background-spiral top-spiral bg-spiral-6">
+    </object> 
+    <object type="image/svg+xml" data="to-right-7.svg" class="background-spiral top-spiral bg-spiral-7">
+    </object> 
+    <object type="image/svg+xml" data="to-right-8.svg" class="background-spiral top-spiral bg-spiral-8">
+    </object> 
+    <object type="image/svg+xml" data="to-right-9.svg" class="background-spiral top-spiral bg-spiral-9">
+    </object> 
+    <object type="image/svg+xml" data="straight-to-right-1.svg" class="background-spiral top-spiral bg-spiral-1">
+    </object> 
+    <object type="image/svg+xml" data="straight-to-right-2.svg" class="background-spiral top-spiral bg-spiral-2">
+    </object> 
+    <object type="image/svg+xml" data="straight-to-right-3.svg" class="background-spiral top-spiral bg-spiral-3">
+    </object> 
+    <object type="image/svg+xml" data="straight-to-right-4.svg" class="background-spiral top-spiral bg-spiral-4">
+    </object> 
+    <object type="image/svg+xml" data="straight-to-right-5.svg" class="background-spiral top-spiral bg-spiral-5">
+    </object> 
+    <object type="image/svg+xml" data="straight-to-right-6.svg" class="background-spiral top-spiral bg-spiral-6">
+    </object> 
+    <object type="image/svg+xml" data="straight-to-right-7.svg" class="background-spiral top-spiral bg-spiral-7">
+    </object> 
+    <object type="image/svg+xml" data="straight-to-right-8.svg" class="background-spiral top-spiral bg-spiral-8">
+    </object> 
+    <object type="image/svg+xml" data="straight-to-right-9.svg" class="background-spiral top-spiral bg-spiral-9">
+    </object>  
+    <a href="primary.html">
+      <div id="circle" class="circle-wrapper" >
+        <h1>leon dail</h1>
+        <h2>full-stack <span>web developer</span></h2>
+        <h3 id="hidden-text">
+          <span id="hidden-1">untangling</span>
+          <span id="hidden-2">your</span>
+          <span id="hidden-3">spaghetti</span>
+          <span id="hidden-4">code</span>
+        </h3>
+      </div>
+    </a>
+  </div>
+</div>
+<div class="wrapper hidden" id="transition-element"></div>
+<script>
+  const circle = document.getElementById('circle');
+  circle.addEventListener('click', function(e) {
+    e.preventDefault();
+    setTimeout(function() { 
+      window.location = 'primary.html';
+    }, 300);
+    const element = document.getElementById('transition-element');
+    element.classList.remove('hidden');
+    element.classList.add('overlay');
+  })
+</script>
+</body>
+</html>

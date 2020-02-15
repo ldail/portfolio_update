@@ -8,75 +8,240 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
   <link rel="manifest" href="/site.webmanifest" />
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,600,700&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="reset.css" />
-  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="primary.css" />
   <title>leon dail - web developer</title>
 </head>
-<body class="index">
-  <div class="background-wrapper">
-  <div class="wrapper">
-    <object type="image/svg+xml" data="to-right-1.svg" class="background-spiral top-spiral bg-spiral-1">
-    </object> 
-    <object type="image/svg+xml" data="to-right-2.svg" class="background-spiral top-spiral bg-spiral-2">
-    </object>
-    <object type="image/svg+xml" data="to-right-3.svg" class="background-spiral top-spiral bg-spiral-3">
-    </object> 
-    <object type="image/svg+xml" data="to-right-4.svg" class="background-spiral top-spiral bg-spiral-4">
-    </object> 
-    <object type="image/svg+xml" data="to-right-5.svg" class="background-spiral top-spiral bg-spiral-5">
-    </object> 
-    <object type="image/svg+xml" data="to-right-6.svg" class="background-spiral top-spiral bg-spiral-6">
-    </object> 
-    <object type="image/svg+xml" data="to-right-7.svg" class="background-spiral top-spiral bg-spiral-7">
-    </object> 
-    <object type="image/svg+xml" data="to-right-8.svg" class="background-spiral top-spiral bg-spiral-8">
-    </object> 
-    <object type="image/svg+xml" data="to-right-9.svg" class="background-spiral top-spiral bg-spiral-9">
-    </object> 
-    <object type="image/svg+xml" data="straight-to-right-1.svg" class="background-spiral top-spiral bg-spiral-1">
-    </object> 
-    <object type="image/svg+xml" data="straight-to-right-2.svg" class="background-spiral top-spiral bg-spiral-2">
-    </object> 
-    <object type="image/svg+xml" data="straight-to-right-3.svg" class="background-spiral top-spiral bg-spiral-3">
-    </object> 
-    <object type="image/svg+xml" data="straight-to-right-4.svg" class="background-spiral top-spiral bg-spiral-4">
-    </object> 
-    <object type="image/svg+xml" data="straight-to-right-5.svg" class="background-spiral top-spiral bg-spiral-5">
-    </object> 
-    <object type="image/svg+xml" data="straight-to-right-6.svg" class="background-spiral top-spiral bg-spiral-6">
-    </object> 
-    <object type="image/svg+xml" data="straight-to-right-7.svg" class="background-spiral top-spiral bg-spiral-7">
-    </object> 
-    <object type="image/svg+xml" data="straight-to-right-8.svg" class="background-spiral top-spiral bg-spiral-8">
-    </object> 
-    <object type="image/svg+xml" data="straight-to-right-9.svg" class="background-spiral top-spiral bg-spiral-9">
-    </object>  
-    <a href="primary.html">
-      <div id="circle" class="circle-wrapper" >
-        <h1>leon dail</h1>
-        <h2>full-stack <span>web developer</span></h2>
-        <h3 id="hidden-text">
-          <span id="hidden-1">untangling</span>
-          <span id="hidden-2">your</span>
-          <span id="hidden-3">spaghetti</span>
-          <span id="hidden-4">code</span>
-        </h3>
+<body class="primary">
+  <section class="header">
+    <h1>leon dail</h1>
+    <h2>full-stack web developer</h2>
+    <ul class="contact-nav">
+      <li><a href="http://github.com/ldail" target="_blank"><img src="github-logo.svg" class="filter-white" alt="GitHub logo" /></a></li>
+      <li><a href="https://www.linkedin.com/in/ldail/" target="_blank"><img src="linkedin-logo.svg" class="filter-white" alt="LinkedIn logo" /></a></li>
+      <li><a href="mailto:leondailofficial@gmail.com" target="_blank"><img src="email-logo.svg" class="filter-white" alt="Email logo" /></a></li>
+    </ul>
+  </section>
+  <main>
+    <nav>
+      <ul class="page-nav">
+        <li class="active"><a href="primary.html" id="to-bio">bio</a></li>
+        <li class="other-nav"><a href="projects.html" id="to-projects">projects</a></li>
+      </ul>
+    </nav>
+    <section class="primary-data">
+    <section class="data about">
+      <div class="desktop-flex">
+        <div class="mobile-flex">
+          <div class="headshot">
+            <div class="actual-headshot"></div>
+          </div>
+          <h3 class="desktop-reduce">Hi! My name is Leon, and I'm a full-stack 
+            web developer specializing in Javascript with React and NodeJS.</h3>
+        </div>
+        <p class="desktop-reduce">I find myself most proud when I am able to solve 
+          a challenging problem. I am confident knowing 
+          that I can look at a question from all sides and 
+          execute the best solution.</p>
+          
+          <p class="desktop-reduce">I have years of experience with coding
+          and web design. I was the administrator, designer, and coder
+          for small, hobby websites in the past. I 
+          taught myself how to manage a community and 
+          all of its coding needs, including quick solutions
+          when problems arise. Now, 
+          I am utilizing JavaScript to develop web applications. I am hoping to work on a team with great programmers.</p>
+          
+          <p class="desktop-reduce">My biggest passions are designing and creating 
+          games; I am always eager to piece 
+          together all types - board games, pen and paper, 
+          and internet games alike - to test my creativity. 
+          My other outlets are writing stories and staying healthy!</p>
+
+          <p class="special desktop-reduce">Based in sunny San Diego, California</p>
+        </div>
+    </section>
+    <div class="desktop-flex">
+    <section class="data tech">
+      <h4>tech</h4>
+      <div class="tech-stacks">
+        <ul class="tech-stack">
+          <li class="tech-type">Front-end</li>
+          <li>Javascript</li>
+          <li>ReactJS</li>
+          <li>Redux</li>
+          <li>SCSS</li>
+          <li>jQuery</li>
+          <li>CSS3</li>
+          <li>HTML5</li>
+          <li>Enzyme</li>
+        </ul>
+        <ul class="tech-stack">
+          <li class="tech-type">Back-end</li>
+          <li>Node.js</li>
+          <li>Express</li>
+          <li>PostreSQL</li>
+          <li>Mocha</li>
+          <li>Chai</li>
+          <li>RESTful APIs</li>
+        </ul>
+        <ul class="tech-stack">
+          <li class="tech-type">Other</li>
+          <li>Git/GitHub</li>
+          <li>Photoshop</li>
+          <li>Heroku</li>
+          <li>Zeit/Now</li>
+          <li>Testing</li>
+          <li>NPM</li>
+          <li>Dev Tools</li>
+        </ul>
       </div>
-    </a>
-  </div>
-</div>
-<div class="wrapper hidden" id="transition-element"></div>
-<script>
-  const circle = document.getElementById('circle');
-  circle.addEventListener('click', function(e) {
-    e.preventDefault();
-    setTimeout(function() { 
-      window.location = 'primary.html';
-    }, 300);
-    const element = document.getElementById('transition-element');
-    element.classList.remove('hidden');
-    element.classList.add('overlay');
-  })
-</script>
+    </section>
+    <section class="data experience">
+      <h4>experience</h4>
+      <p class="bold">In December 2019, I graduated from Thinkful's Software Engineering Program.</p>
+      <ul>
+        <li>Learned industry-best practices for software development</li>
+          <li>Focused on React, Node.js, Express, jQuery, JavaScript, data structures and algorithms</li>
+          <li>Designed, created, and deployed mobile-first applications.</li>
+          <li>Collaborated with a senior developer multiple times a week.</li>
+          <li>400+ hours peer-programming in pairs or in group projects and 300+ hours solo programming</li>
+      </ul>
+      <p class="bold">From August 2016 to January 2019, I was the Event Coordinator Lead for The Weathervane Restaurant</p>
+      <ul>
+        <li>Directed and trained others in following best methods for high-stakes special events.</li>
+          <li>Required precision in every detail toward preparation and setup</li>
+          <li>Client-facing role demanding guest satisfaction</li>
+      </ul>
+
+      <div class="resume-button-container"><a href="Leon_Dail_Software_Engineer_Resume.pdf" target="_blank" class="resume-button">View Resume</a></div>
+    </section>
+    </div>
+  </section>
+
+  <section class="primary-data display-none">
+    <h2 class="display-none">Projects</h2>
+    <article class="project">
+      <h3>Now Playing</h3>
+      <div class="project-links">
+        <a href="https://whatsplaying.now.sh" class="special" target="_blank">Visit</a>
+        <a href="https://github.com/thinkful-ei-gecko/NowPlaying-Client" class="special" target="_blank">Github</a>
+      </div>
+      <p class="project-description">
+        Now Playing provides users a platform to engage 
+        with others while watching movies. Users are able 
+        to see comments in real-time made by others as
+        they watch along. Now Playing utilizes the TMDB 
+        API to offer an extended breadth of movies.
+      </p>
+      <a href="NowPlayingLive-screenshot.png"><img src="NowPlayingLive-screenshot.png" class="screenshot" alt="project screenshot" /></a>
+      <p class="project-tech">
+        <span class="bold">tech:</span>
+        ReactJS, Javascript, HTML5, CSS3, 
+        NodeJS, Express, Knex, APIs, PostgreSQL
+      </p>
+    </article>
+
+    <article class="project">
+      <h3>Ultimate Clothing</h3>
+      <div class="project-links">
+        <a href="https://ultimateclothing.now.sh" class="special" target="_blank">Visit</a>
+        <a href="https://github.com/ldail/ultimate-clothing" class="special" target="_blank">Github</a>
+      </div>
+      <p class="project-description">
+        Ultimate Clothing is an e-commerce platform that hosts popular clothing
+        items for sale. The application utilizes Stripe for payments and Firebase/auth for user authorization and Firebase/firestore for
+        holding the collection data. Ultimate Clothing utilizes redux for state
+        management and is a fully functioning e-commerce store.
+      </p>
+      <a href="UltimateClothing-screenshot.png"><img src="UltimateClothing-screenshot.png" class="screenshot" alt="project screenshot" /></a>
+      <p class="project-tech">
+        <span class="bold">tech:</span>
+        ReactJS, Redux, Javascript, Firebase, Stripe,
+        NodeJS, Express, HTML5, CSS3
+      </p>
+    </article>
+
+    <article class="project">
+      <h3>DirectMe</h3>
+      <div class="project-links">
+        <a href="https://directme.ldail.now.sh" class="special" target="_blank">Visit</a>
+        <a href="https://github.com/ldail/directme-Capstone" class="special" target="_blank">Github</a>
+      </div>
+      <p class="project-description">
+        Directme is a modern web directory. Users can find new websites and communities 
+        via hubs and tags. Hubs are nested categories that a user can move through until 
+        they find a topic of interest. Tags allow a user to search by keywords to find 
+        listings. Users can contribute listings with any number of imaginable tags. If 
+        the tags match a hub's nested link, the listing will be displayed there as well.
+      </p>
+      <a class="screenshot-link" href="DirectMe-screenshot.png"><img src="DirectMe-screenshot.png" class="screenshot" alt="project screenshot" /></a>
+      <p class="project-tech">
+        <span class="bold">tech:</span>
+        ReactJS, Javascript, HTML5, CSS3, 
+        NodeJS, Express, Knex, PostgreSQL
+      </p>
+    </article>
+
+    <article class="project">
+      <h3>El Instrumento</h3>
+      <div class="project-links">
+        <a href="https://client.ldail.now.sh" class="special" target="_blank">Visit</a>
+        <a href="https://github.com/thinkful-ei-gecko/Smiti-Leon-new-spaced-repetition-client" class="special" target="_blank">Github</a>
+      </div>
+      <p class="project-description">
+        El Instrumento helps a user learn a language using the 
+        Spaced Repetition algorithm which is proven to increase the 
+        rate of learning dramatically. This version contains beginnings to 
+        learn the Spanish language, starting with the English/Spanish 
+        translations of common musical instruments.
+      </p>
+      <a href="ElInstrumento-screenshot.png"><img src="ElInstrumento-screenshot.png" class="screenshot" alt="project screenshot" /></a>
+      <p class="project-tech">
+        <span class="bold">tech:</span>
+        ReactJS, Javascript, HTML5, CSS3, 
+        NodeJS, Express, Knex, PostgreSQL
+      </p>
+    </article>
+    
+  </section>
+  </main>
+  <script>
+
+    function changePage() {
+
+      //Set the navigation to active on the proper one
+      let children = document.querySelector('.page-nav').children;
+      for (let x of children) { 
+        x.classList.toggle('active');
+        x.classList.toggle('other-nav');
+      }
+      
+      //Change the main document text
+      let primary = document.querySelectorAll('.primary-data');
+      for (let x of primary) {
+        x.classList.toggle('display-none');
+      }
+    }
+
+    const active = document.querySelector('#to-bio')
+    active.addEventListener('click', function(e) {
+      e.preventDefault();
+      let currentActive = document.querySelector('.active');
+      if (currentActive.textContent !== 'bio') {
+        changePage();
+      }
+    });
+    const otherNav = document.querySelector('#to-projects');
+    otherNav.addEventListener('click', function(e) {
+      e.preventDefault();
+      let currentActive = document.querySelector('.active');
+      if (currentActive.textContent !== 'projects') {
+        changePage();
+      }
+    });
+  
+  </script>
 </body>
 </html>
