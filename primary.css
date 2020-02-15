@@ -69,7 +69,7 @@ a { color: white; text-decoration: none; }
 
 
 .header, main {
-  background-color: white;
+  background-color: #e7f5ff;
 }
 
 .header {
@@ -84,7 +84,7 @@ a { color: white; text-decoration: none; }
 }
 
 .primary h1 {
-  color: #368ecf;
+  color: white;
   border: none;
   font-size: 60px;
   padding-top: 30px;
